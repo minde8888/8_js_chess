@@ -1,0 +1,113 @@
+.board {
+    display: inline-block;
+    
+    width: 90%;
+    height: 90%;
+    margin: 5% 5%;
+    border: 5px solid red;
+    background-color: #eee;
+    position: absolute;
+    
+}
+    .board > .row {
+        display: inline-block;
+        width: 100%;
+        height: 25%;
+        float: left;
+    }
+        .board > .row > .cell {
+            display: inline-block;
+            width: 25%;
+            height: 100%;
+            float: left;
+            overflow: hidden;
+            position: relative;
+        }
+.container {
+    display: inline-block;
+    float: left;
+    width: 90vmin;
+    height: 90vmin;
+    margin: 5vmin calc(50% - 45vmin);
+    border: 2px solid red;
+    /*background-color: green;*/
+    position: relative;
+    font-size:calc(3vmin);
+    
+}
+    .container > .top {
+        display: inline-block;
+        width: 90%;
+        height:5%;
+        position: absolute;
+        margin: 0 5%;
+    }
+        .container > .top > .aaa {
+                text-align: center;
+                display: inline-block;
+                float: left;
+            }
+    .container > .bottom {
+    display: inline-block;
+    width: 90%;
+    height:5%;
+    position: absolute;
+    margin: 95% 5% ;
+    }
+        .container > .bottom > .aaa{
+                text-align: center;
+                display: inline-block;
+                float: left;
+            }
+    .container > .left {
+        display: block;
+        width: 5%;
+        height:90%;
+        position: absolute;
+        margin: 10% 0 0 0 ;
+        }
+            .container > .left > .ddd{
+                    text-align: center;
+                    display: block;
+                    float: left;
+                    width: 100%;
+                }
+    .container > .right {
+        display: block;
+        width: 5%;
+        height:90%;
+        position: absolute;
+        margin: 2% 0 0 95% ;
+        
+        }
+            .container > .right > .ddd{
+                    text-align: center;
+                    display: block;
+                    float: left;
+                    width: 100%;
+                    transform: rotate(180deg);
+                }
+
+body,           
+body * {
+margin: 0;
+padding: 0;
+vertical-align: top;
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+word-break: break-all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
